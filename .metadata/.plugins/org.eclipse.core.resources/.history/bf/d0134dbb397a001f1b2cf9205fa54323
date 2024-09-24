@@ -1,0 +1,5 @@
+package com.shreyas.kafkaintroduction.controller;
+
+public class MessageController {
+
+}
