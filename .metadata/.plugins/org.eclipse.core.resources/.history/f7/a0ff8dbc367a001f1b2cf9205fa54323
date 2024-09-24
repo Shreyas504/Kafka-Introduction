@@ -1,0 +1,5 @@
+package com.shreyas.kafkaintroduction.config;
+
+public class KafkaTopicConfig {
+
+}
