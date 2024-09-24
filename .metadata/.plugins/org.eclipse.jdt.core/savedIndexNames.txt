@@ -68,7 +68,6 @@ INDEX VERSION 1.134+D:\Spring-Kafka\.metadata\.plugins\org.eclipse.jdt.core
 1251607914.index
 343419744.index
 4274780502.index
-396097976.index
 795397076.index
 585111399.index
 2568845156.index

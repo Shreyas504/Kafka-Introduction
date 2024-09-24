@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.shreyas.kafkaintroduction.producer.Producer;
+import com.shreyas.kafkaintroduction.producer.KafkaProducer;
 
 import lombok.RequiredArgsConstructor;
 
@@ -15,7 +15,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class MessageController {
 	
-	private final Producer kafkaProducer;
+	private final KafkaProducer kafkaProducer;
 	
 	@PostMapping
 	public ResponseEntity<String> sendMessage(

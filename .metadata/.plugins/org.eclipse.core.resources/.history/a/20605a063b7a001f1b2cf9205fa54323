@@ -1,0 +1,5 @@
+package com.shreyas.kafkaintroduction.Consumer;
+
+public class KafkaConsumer {
+
+}
